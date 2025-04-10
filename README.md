@@ -1,34 +1,58 @@
-# 🧪 test-seed-generator
+# 👾 test-seed-generator
 
-Generate fake test data (JSON or SQL) using simple YAML schemas. Ideal for testing, prototyping, and seeding databases with realistic mock data.
+Generate fake test data (JSON or SQL) using simple YAML schemas.
+Ideal for testing, prototyping, and seeding databases with realistic mock data.
 
 ## 📦 Installation
 
-Install the package globally via npm:
+To install the CLI tool globally via npm, run the following command in your terminal:
 
-```bash
 npm install -g test-seed-generator
 
-🚀 Usage 
+### 🚀 Usage
 
-Run the CLI with a YAML config file and specify the output directory:
+Run the CLI by specifying:
 
-test-seed-generator --config ./schema.yaml --output ./seeds
+The path to your schema file using the --config flag
 
-📄 Example schema.yaml 
+The output directory where files should be generated using the --output flag
+
+#### 👉 Example:
+
+test-seed-generator --config ./schemas/user-schema.yaml --output ./seeds
+
+##### 🛠️ Creating Your Schema
+
+You need to create a YAML configuration file that defines the structure and content of your mock data.
+
+Example schema.yaml:
 
 users:
-  count: 5
-  fields:
-    id: uuid
-    name: name.fullName
-    email: internet.email
-    role: [admin, user, guest]
+ count: 5
+ fields:
+  id: uuid
+  name: name.fullName
+  email: internet.email
+  role: [admin, user, guest]
 
-📁 Output
+Explanation:
 
-Depending on the format selected, the tool will generate:
+users: the name of the dataset/table
 
+count: number of records to generate
+
+fields: key-value pairs for field names and faker data types or options
+
+###### 📁 Output
+
+Based on the selected format (default is JSON), the CLI generates files in the specified output directory.
+
+Examples:
+
+JSON Output:
 ./seeds/users.json
-or
+
+SQL Output (if --format sql is used):
 ./seeds/users.sql
+
+Each file contains the generated fake data records as defined in your schema.
