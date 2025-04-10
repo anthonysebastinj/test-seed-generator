@@ -1,0 +1,32 @@
+[
+  {
+    "id": "969c0a83-b2d7-414c-950b-8b7180493624",
+    "name": "Brent Lemke",
+    "email": "Cleta.Schinner79@gmail.com",
+    "role": "user"
+  },
+  {
+    "id": "224772e1-c8fa-400e-8b06-d55b3f9571d2",
+    "name": "Marguerite Harris",
+    "email": "Carol.Fahey@yahoo.com",
+    "role": "guest"
+  },
+  {
+    "id": "61f1c945-546e-4921-bed3-32f3a26e3efd",
+    "name": "Curtis Aufderhar DVM",
+    "email": "Dulce.Harris6@hotmail.com",
+    "role": "admin"
+  },
+  {
+    "id": "45affba9-472e-48be-bbd4-1ea809eebd60",
+    "name": "Seth Stroman",
+    "email": "Dee.Daniel47@gmail.com",
+    "role": "guest"
+  },
+  {
+    "id": "ec22e994-16b3-44b5-9b35-f243cdf7a353",
+    "name": "Lorraine King",
+    "email": "Beau_Howe39@yahoo.com",
+    "role": "guest"
+  }
+]

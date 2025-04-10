@@ -1,0 +1,31 @@
+{
+  "name": "test-seed-generator",
+  "version": "1.0.1",
+  "description": "A CLI tool to generate fake seed data (JSON or SQL) using simple YAML schemas.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "test-seed-generator": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "faker",
+    "seed",
+    "generator",
+    "json",
+    "yaml",
+    "testing",
+    "mock",
+    "data"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "commander": "^13.1.0",
+    "js-yaml": "^4.1.0"
+  }
+}

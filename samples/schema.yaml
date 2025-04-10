@@ -1,0 +1,15 @@
+users:
+  count: 5
+  fields:
+    id: uuid
+    name: name.fullName
+    email: internet.email
+    role: [admin, user, guest]
+
+posts:
+  count: 10
+  fields:
+    id: uuid
+    title: lorem.sentence
+    content: lorem.paragraphs
+    authorId: ref(users.id)

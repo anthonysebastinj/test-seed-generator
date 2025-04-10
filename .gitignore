@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Output directories
+dist/
+build/
+output/
+coverage/
+.seeds/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: dotenv files
+.env
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# npm pack output
+*.tgz
+
+# IDEs
+.idea/
+*.sw?
+
+# test coverage
+.nyc_output/
+coverage/
