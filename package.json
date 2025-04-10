@@ -1,6 +1,6 @@
 {
   "name": "test-seed-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to generate fake seed data (JSON or SQL) using simple YAML schemas.",
   "main": "index.js",
   "type": "module",
